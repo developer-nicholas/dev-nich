@@ -1,0 +1,51 @@
+.teams {
+  margin-top: 80px;
+
+}
+
+.teamBox {
+  padding: 5px;
+  border-radius: 32px;
+  box-shadow: 0 0 10px rgba(200, 200, 200, 0.5);
+  margin-bottom: 10px;
+}
+
+.teamName {
+  font-size: 16px;
+  text-align: center;
+}
+.teamCountry {
+  text-align: center;
+}
+
+.boxTeamEmblem {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.teamEmblem {
+  width: 70px;
+  height: 70px;
+}
+.search {
+  width: 50%;
+  margin: 10px 0;
+}
+
+.team {
+  border-color: rgb(230, 230, 230);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 16px;
+  margin: 10px 5px;
+  padding: 5px 0;
+  transition: border-color 0.2s ease-in;
+  color: black;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.team:hover {
+  border-color: #4096ff;
+}

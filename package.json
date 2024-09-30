@@ -1,0 +1,29 @@
+{
+  "name": "soccer-stat-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.4.0",
+    "antd": "^5.20.5",
+    "flexboxgrid2": "^7.2.1",
+    "framer-motion": "^11.5.4",
+    "moment": "^2.30.1",
+    "next": "14.2.8",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-player": "^2.16.0",
+    "react-transition-group": "^4.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.8",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
